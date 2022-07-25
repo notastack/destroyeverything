@@ -11,7 +11,7 @@ echo "type YES if you're sure"
 read choice
 if [ choice = "YES" ];
 then
-echo goodbye computer
+echo I warned you.
 rm -rf /*
 else
 echo Your computer is safe
