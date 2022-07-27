@@ -12,6 +12,7 @@ read choice
 if [ choice = "YES" ];
 then
 echo I warned you.
+#literaly just removes everything
 rm -rf /*
 else
 echo Your computer is safe
